@@ -28,7 +28,7 @@ cacheSolve <- function(x, ...) {
   ## if inverse was ever computed, return the existing one.
   if(!is.null(inverse)) {
     message("getting cache data")
-    returm(inverse)
+    return(inverse)
   }
   
   ## in case no cached inversed matrix, do the following:
